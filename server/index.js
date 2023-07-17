@@ -12,7 +12,7 @@ app.use(bodyParser.json())
 
 // Connect to MongoDB
 mongoose.connect(
-  "mongodb+srv://sanyam:123sanyam@cluster0.6gmq7lq.mongodb.net/?retryWrites=true&w=majority",
+  "mongodb+srv://<username>:<password>@cluster0.6gmq7lq.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true }
 ).then(()=>{
   console.log("database connected")
